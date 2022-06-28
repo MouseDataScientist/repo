@@ -12,8 +12,8 @@ st.write(ile)
 ipc = st.slider('Informe o Índice de Percepção da Corrupção', min_value = 0, max_value = 100)
 st.write(ipc)
 
-if (os.path.exists('/idh_project/modelo.h5')):
-    modelo = tf.keras.models.load_model('/idh_project/modelo.h5')
+if (os.path.exists('repo/idh_project/modelo.h5')):
+    modelo = tf.keras.models.load_model('repo/idh_project/modelo.h5')
     botao = st.button('PREVER')
     if (botao):
         listaValores = np.array([[ile, ipc]])

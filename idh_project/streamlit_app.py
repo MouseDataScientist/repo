@@ -26,9 +26,9 @@ def prever(x):
 normalizar = MinMaxScaler(feature_range = (0,1))
 
 if (os.path.exists('repo/idh_project/modelo.h5')):
-    modelo = tf.keras.models.load_model('modelo.h5')
-    previsores = np.load('previsores.npy')
-    normalizados = np.load('normalizados.npy')
+    modelo = tf.keras.models.load_model('repo/idh_project/modelo.h5')
+    #previsores = np.load('previsores.npy')
+    #normalizados = np.load('normalizados.npy')
     botao = st.button('PREVER')
     
     if (botao):

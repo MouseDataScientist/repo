@@ -8,7 +8,8 @@ Estrutura do Projeto:
 
 arquivos_python -- Tarefas realizadas no Jupter Notebook.
 dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
-modelo.h5 -------- Modelo de Mchine Learning treinado.
+documentação ----- Documentação contendo detalhamento do projeto.
+modelo.h5 -------- Modelo de Machine Learning treinado.
 normalizados ----- Lista de dados normalizados.
 previsores ------- Lista de dados originais.
 streamlit_app.py - Protótipo do app.

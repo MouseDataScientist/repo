@@ -1,13 +1,16 @@
 
 Seja bem vindo(a)!
 
-Esse é meu primeiro projeto desenvolvido totalmente do zero desde a pesquisa e coleta de dados até a prototipação do app.
+Este é meu primeiro projeto desenvolvido totalmente do zero desde a pesquisa e coleta de dados até a prototipação do app.
 Para mais detalhes, confira a documentação em PDF.
 
-Estrutura:
+Estrutura do Projeto:
 
-arquivos_python - Tarefas realizadas no Jupter Notebook.
-dados ----------- Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
-
+arquivos_python -- Tarefas realizadas no Jupter Notebook.
+dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
+modelo.h5 -------- Modelo de Mchine Learning treinado.
+normalizados ----- Lista de dados normalizados.
+previsores ------- Lista de dados originais.
+streamlit_app.py - Protótipo do app.
 
 Link para o protótipo - https://mousedatascientist-repo-idh-projectstreamlit-app-1gvzro.streamlitapp.com/

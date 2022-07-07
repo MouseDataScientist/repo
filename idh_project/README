@@ -10,8 +10,8 @@ arquivos_python -- Tarefas realizadas no Jupter Notebook.
 dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
 documentação ----- Documentação contendo detalhamento do projeto.
 modelo.h5 -------- Modelo de Machine Learning treinado.
-normalizados ----- Lista de dados normalizados.
-previsores ------- Lista de dados originais.
+normalizados ----- Lista de previsores normalizados.
+previsores ------- Lista de previsores originais.
 streamlit_app.py - Protótipo do app.
 
 Link para o protótipo - https://mousedatascientist-repo-idh-projectstreamlit-app-1gvzro.streamlitapp.com/

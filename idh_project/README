@@ -1,5 +1,13 @@
-Esse é meu primeiro projeto!
-O projeto foi desenvolvido totalmente do zero desde a pesquisa e coleta de dados até a prototipação do app.
+
+Seja bem vindo(a)!
+
+Esse é meu primeiro projeto desenvolvido totalmente do zero desde a pesquisa e coleta de dados até a prototipação do app.
 Para mais detalhes, confira a documentação em PDF.
+
+Estrutura:
+
+arquivos_python - Tarefas realizadas no Jupter Notebook.
+dados ----------- Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
+
 
 Link para o protótipo - https://mousedatascientist-repo-idh-projectstreamlit-app-1gvzro.streamlitapp.com/

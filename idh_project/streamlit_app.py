@@ -41,8 +41,7 @@ if ((os.path.exists('idh_project/modelo.h5')) and (os.path.exists('idh_project/p
                 prever(x)
                 break
     
-            else:
-                cont == len(previsores)
+            elif cont == len(previsores):                
                 previsores = np.append(previsores, novo, axis = 0)
                 normalizados = normalizar.fit_transform(previsores)
                 x = np.array([normalizados[-1]])

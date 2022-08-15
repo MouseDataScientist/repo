@@ -6,7 +6,7 @@ Para mais detalhes, confira a documentação em PDF.
 
 Estrutura do Projeto:
 
-arquivos_python -- Tarefas realizadas no Jupter Notebook.
+notebooks -- Tarefas realizadas no Jupter Notebook.
 dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
 documentação ----- Documentação contendo detalhamento do projeto.
 modelo.h5 -------- Modelo de Machine Learning treinado.

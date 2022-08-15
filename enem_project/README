@@ -1,3 +1,11 @@
 Sendo o segundo projeto realizado, apliquei conceitos um pouco mais avancados, como por exemplo configuração de hiperparâmetros, 
 balanceamento de classe através de método de under sampling com Near Miss, validação cruzada, front end em html e api para consumo do modelo.
-Toda a análise exploratória bem como tratamento dos dados e criação de novas features foram realizadas somente no Python.
+Toda a análise exploratória bem como tratamento dos dados e criação de novas features foram realizadas exclusivamente no Python.
+
+Estrutura do Projeto:
+
+notebooks -------- Tarefas realizadas no Jupter Notebook.
+dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
+documentação ----- Documentação contendo detalhamento do projeto.
+
+

@@ -1,6 +1,11 @@
-Sendo o segundo projeto realizado, apliquei conceitos um pouco mais avancados, como por exemplo configuração de hiperparâmetros, 
-balanceamento de classe através de método de under sampling com Near Miss, validação cruzada, front end em html e api para consumo do modelo.
-Toda a análise exploratória bem como tratamento dos dados e criação de novas features foram realizadas exclusivamente no Python.
+O projeto consiste em analisar e validar a hipótese de atributos socioeconômicos contribuirem para uma 
+determinada nota dos participantes do Exame Nacional do Ensino Médio e, com isso, poder prever a nota
+de um determinado participante com base nesses atributos.
+
+Sendo esse o segundo projeto realizado, apliquei conceitos um pouco mais avancados, como configuração de 
+hiperparâmetros, seleção de features, balanceamento de classe através de método de under sampling com Near 
+Miss, validação cruzada, front end em html e api para consumo do modelo. Toda a análise exploratória bem 
+como tratamento dos dados e criação de novas features foram realizadas exclusivamente no Python.
 
 Estrutura do Projeto:
 

@@ -7,7 +7,7 @@ Para mais detalhes, confira a documentação em PDF.
 Estrutura do Projeto:
 
 notebooks -------- Tarefas realizadas no Jupter Notebook.
-dados ------------ Arquivo onde estão as coletas, estruturação e tratamento prévio dos dados.
+dados ------------ Arquivo contendo coleta, estruturação e tratamento prévio dos dados.
 documentação ----- Documentação contendo detalhamento do projeto.
 modelo.h5 -------- Modelo de Machine Learning treinado.
 normalizados ----- Lista de previsores normalizados.

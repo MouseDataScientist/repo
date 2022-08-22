@@ -8,8 +8,8 @@ api -------------- Api para consumo do modelo em notbook e HTML.
 data ------------- Base de dados tratada para construção da máquina preditiva.
 graphics --------- Gráficos para análise e insights dos dados.
 model ------------ Modelo de dados compactado em .rar
-notebooks -------- Tarefas realizadas em notebooks.
+notebooks -------- Tarefas realizadas e separadas em notebooks.
 templates -------- Front End em HTML para consumo do modelo.
-documentação ----- Documentação contendo detalhamento do projeto.
+relatório -------- Documentação contendo insights e validação de hipótese.
 
 

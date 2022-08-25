@@ -1,6 +1,6 @@
 O projeto consiste em analisar e validar a hipótese de atributos socioeconômicos contribuirem para uma 
 determinada nota dos participantes do Exame Nacional do Ensino Médio e, com isso, poder prever a nota
-de um determinado participante com base nesses atributos.
+de um participante com base nesses atributos.
 
 Sendo esse o segundo projeto realizado, apliquei conceitos um pouco mais avancados, como configuração de 
 hiperparâmetros, seleção de features, balanceamento de classe através de método de under sampling com Near 
@@ -15,6 +15,6 @@ graphics --------- Gráficos para análise e insights dos dados.
 model ------------ Modelo de dados compactado em .rar
 notebooks -------- Tarefas realizadas e separadas em notebooks.
 templates -------- Front End em HTML para consumo do modelo.
-relatório -------- Documento contendo insights e validação de hipótese.
+dashboards -------- Dashboars para anlálise aprofundada e validação de Hipóteses.
 
 

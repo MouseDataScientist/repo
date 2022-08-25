@@ -15,6 +15,6 @@ graphics --------- Gráficos para análise e insights dos dados.
 model ------------ Modelo de dados compactado em .rar
 notebooks -------- Tarefas realizadas e separadas em notebooks.
 templates -------- Front End em HTML para consumo do modelo.
-dashboards -------- Dashboars para anlálise aprofundada e validação de Hipóteses.
+dashboards ------- Dashboars para anlálise aprofundada e validação de Hipóteses.
 
 

@@ -1,5 +1,5 @@
 O projeto consiste, através da correlação de Pearson, analisar e visualizar a correlação de atributos políticos e econômicos no 
-Índice de Desenvolvimento Humano dos países.
+Índice de Desenvolvimento Humano dos países, esperando assim validar hipóteses e extrair insights dessa correlação.
 
 Os dados foram adquiridos em diferentes fontes e formatos, foram transportados para o Excel para serem cruzados e pré-tratados 
 para só então serem manipulados e analisados no Python. As fontes dos dados foram:
@@ -10,6 +10,6 @@ wikipedia.org ------- classe(IDH)
 
 Estrutura do Projeto:
 
-dashboards ------- Dashboars para anlálise gráfica das principais correlrelações.
-data ------------- Base de dados tratada para construção da máquina preditiva.
-notebooks -------- Tarefas realizadas e separadas em notebooks.
+dashboards ------- Dashboars para anlálise gráfica das principais correlelações.
+data ------------- Arquivos .csv desde a base de dados bruta até a base de análise final.
+notebooks -------- Tarefas realizadas.

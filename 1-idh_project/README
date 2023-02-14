@@ -1,0 +1,7 @@
+O projeto Índice de Desenvolvimento Humano(IDH) consiste em analisar a possível correlação 
+e influência que este possa sofrer em relação aos principais atributos políticos e econômicos 
+dos países.
+
+A maior parte dos dados foram adquiridos através do site Fraser Intitute e transportados 
+primeiramente para o Excel para serem cruzados com o IDH e pré-tratados para análise no Python.
+

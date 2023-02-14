@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <title>BANK</title>
+    <meta charset='utf-8'>
+</head>
+
+<style>
+    p {
+        font-size: 50px;
+    }
+
+    em {
+        color: rgb(194, 151, 174);
+    }
+
+    fieldset {
+        font-size: 20px;
+        border: 8px blue solid;
+        border-radius: 10px;
+        width: 25%
+    }
+</style>
+
+<body>
+    <center>
+        <p></p>
+        <h1>BANK</h1>
+        <p></p>
+        <h2>Preencha as informações do cliente para que o sistema<br>
+            preveja se o mesmo ará arcar com o depósito no prazo.
+        </h2>
+        <p></p>
+        <form action='predict' method='POST' enctype='multipart/form-data'>
+            <fieldset>
+                <legend>Marketing Data</legend>
+                <p></p>
+                <label>Age</label>
+                <select name='age' id='age' required>
+                    <option value='' selected></OPTION>
+                    <option value='1'>MENOR QUE 17 ANOS</OPTION>
+                    <option value='2'>17 ANOS</OPTION>
+                    <option value='3'>18 ANOS</OPTION>
+                    <option value='4'>19 ANOS</OPTION>
+                    <option value='5'>20 ANOS</OPTION>
+                    <option value='6'>21 ANOS</OPTION>
+                    <option value='7'>22 ANOS</OPTION>
+                    <option value='8'>23 ANOS</OPTION>
+                    <option value='9'>24 ANOS</OPTION>
+                    <option value='10'>25 ANOS</OPTION>
+                    <option value='11'>26..30 ANOS</OPTION>
+                    <option value='12'>31..35 ANOS</OPTION>
+                    <option value='13'>36..40 ANOS</OPTION>
+                    <option value='14'>41..45 ANOS</OPTION>
+                    <option value='15'>46..50 ANOS</OPTION>
+                    <option value='16'>51..55 ANOS</OPTION>
+                    <option value='17'>56..60 ANOS</OPTION>
+                    <option value='18'>61..65 ANOS</OPTION>
+                    <option value='19'>66..70 ANOS</OPTION>
+                    <option value='20'>MAIOR QUE 70 ANOS</OPTION>
+                </select>
+                <p></p>
+                <label>Job</label>
+                <select name='job' id='job' required>
+                    <option value='' selected></OPTION>
+                    <option value='0'>Admin.</OPTION>>
+                    <option value='1'>Blue-Collar</OPTION>
+                    <option value='2'>Entrepreneur</OPTION>
+                    <option value='3'>Housemaid</OPTION>
+                    <option value='4'>Management</OPTION>
+                    <option value='5'>Retired</OPTION>
+                    <option value='6'>Self-employed</OPTION>
+                    <option value='7'>Services</OPTION>
+                    <option value='8'>Student</OPTION>
+                    <option value='9'>Technician</OPTION>
+                    <option value='10'>Unemployed</OPTION>
+                    <option value='11'>Unknown</OPTION>
+                </select>
+                <p></p>
+                <label>Marital</label>
+                <select name='marital' id='marital' required>
+                    <option value='' selected></OPTION>
+                    <option value='0'>Divorced</OPTION>
+                    <option value='1'>Married</OPTION>
+                    <option value='2'>Single</OPTION>
+                </select>
+                <p></p>
+                <label>Education</label>
+                <select name='education' id='education' required>
+                    <option value='' selected></OPTION>
+                    <option value='0'>Primary</OPTION>
+                    <option value='1'>Secondary</OPTION>
+                    <option value='1'>Tertiary</OPTION>
+                    <option value='2'>Unknown</OPTION>
+                </select>
+                <p></p>
+                <label>Contact</label>
+                <select name='contact' id='contact' required>
+                    <option value='' selected></OPTION>
+                    <option value='0'>Cellular</OPTION>
+                    <option value='1'>Telefone</OPTION>
+                    <option value='2'>Unknown</OPTION>
+                </select>
+                <p></p>
+
+                <label>Date</label>
+                <input type='date' id='date' required>
+                </select>
+                <p></p>
+
+                <label>Default:</label>
+                <label><input type='radio' name='default' value='0' required>No</label>
+                <label><input type='radio' name='default' value='1'>Yes</label>
+                <p></p>
+                <label>Housing:</label>
+                <label><input type='radio' name='housing' value='0' required>No</label>
+                <label><input type='radio' name='housing' value='1'>Yes</label>
+                <p></p>
+                <label>Loan:</label>
+                <label><input type='radio' name='loan' value='0' required>No</label>
+                <label><input type='radio' name='loan' value='1'>Yes</label>
+                <p></p>
+                <button type='submit' style='width:150px; height:50px;'>Prever</button>
+                <p></p>
+                <label>{{classe}}</label>
+                <p></p>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>

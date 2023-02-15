@@ -3,4 +3,5 @@ na nota final do exame.
 
 Os dados foram adquiridos no site gov.br e foram transportados, analisados e tratados no Python.
 
-O resultado final produziu dashboards interessantes que demonstram a relação entre os atributos e o desempenho dos participantes. 
+O resultado final produziu dashboards interessantes que demonstram a relação entre os atributos e o desempenho dos participantes
+de acordo com as informações socioeconômicas. 

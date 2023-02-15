@@ -1,2 +1,6 @@
-O projeto Banco trata-se de campanhas de marketing direto de uma instituição bancária portuguesa. As campanhas de marketing foram baseadas em telefonemas. 
-Muitas vezes era necessário mais do que um contato com o mesmo cliente para saber se o depósito bancário seria efetuado no prazo ou não.
+O projeto Banco refere-se a atividade supervisionada de classificação, no qual tem como objetivo classificar se o depósito do cliente seria efetuado ou 
+não no prazo. O dados saõ advindos de campanhas de marketing direto de uma instituição bancária portuguesa. As campanhas de marketing foram baseadas em 
+telefonemas. Muitas vezes era necessário mais do que um contato com o mesmo cliente para saber se o depósito bancário seria efetuado no prazo ou não.
+
+Os dados foram adquiridos através do site UCI Machine Learning Repository, que contém coleções de bancos de dados usados pela comunidade de aprendizado de 
+máquina para a análise empírica de algoritmos de aprendizado de máquina.

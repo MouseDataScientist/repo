@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}"/>
+    <title>bank_template</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="{{main_img}}">
+            <img src="{{img_deposit}}">
+        </div>
+        <div class = "form">
+            <form action="predict" method="post" enctype="multipart/form-data">
+                <div class="header">
+                    <h1>Deposit Forecast</h1>
+                </div>
+
+                <div class="title">
+                    <h2>Client Data</h2>
+                </div>
+
+                <div class="client-data">
+                    <div class="input-option">
+                        <div id="job">
+                            <label for="job">Job</label>
+                            <select id="job" name="job" required>
+                                <option value=""selected></option>
+                                <option value="admin.">Admin.</option>
+                                <option value="blue-collar">Blue-Collar</option>
+                                <option value="entrepreneur">Entrepreneur</option>
+                                <option value="housemaid">Housemaid</option>
+                                <option value="management">Management</option>
+                                <option value="retired">Retired</option>
+                                <option value="self-employed">Self-employed</option>
+                                <option value="services">Services</option>
+                                <option value="student">Student</option>
+                                <option value="technician">Technician</option>
+                                <option value="unemployed">Unemployed</option>
+                                <option value="unknown">Unknown</option>
+                            </select>
+                        </div>
+
+                        <div id="education">
+                            <label for="education">Education</label>
+                            <select id="education" name="education" required>
+                                <option value=""selected></option>
+                                <option value="1">Primary</option>
+                                <option value="2">Secondary</option>
+                                <option value="3">Tertiary</option>
+                                <option value="0">Unknown</option>
+                            </select>
+                        </div>
+
+                        <div id="marital">
+                            <label for="marital">Marital</label>
+                            <select id="marital" name="marital" required>
+                                <option value="" selected></OPTION>
+                                <option value="divorced">Divorced</option>
+                                <option value="married">Married</option>
+                                <option value="single">Single</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div id="age">
+                            <label for="age">Age</label>
+                            <input id="age" type="text" name="age" placeholder="Age of client" required>
+                        </div>
+
+                        <div id="balance">
+                            <label for="balance">Balance</label>
+                            <input id="balance" type="text" name="balance" placeholder="Balance of client" required>
+                        </div>
+                    </div>
+
+                    <div class="input-radio">
+                        <div id="default">
+                            <label for="default">Default:</label>
+                            <input type="radio" name="default" value="0" required>No</label>
+                            <input type="radio" name="default" value="1">Yes</label>
+                        </div>
+
+                        <div id="housing">
+                            <label for= "housing">Housing:</label>
+                            <input type="radio" name="housing" value="0" required>No</label>
+                            <input type="radio" name="housing" value="1">Yes</label>
+                        </div>
+
+                        <div id="loan">
+                            <label for="loan">Loan:</label>
+                            <input type="radio" name="loan" value="0" required>No</label>
+                            <input type="radio" name="loan" value="1">Yes</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-campaign">
+                    <div class="input-contact">
+                        <div class="subtitle">
+                            <h2>Contact Data</h2>
+                        </div>
+
+                        <div id="date">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+
+                        <div id="contact">
+                            <label for="contact">Contact</label>
+                            <select id="contact" name="contact" required>
+                                <option value="" selected></OPTION>
+                                <option value="cellular">Cellular</option>
+                                <option value="telephone">Telephone</option>
+                                <option value="unknown">Unknown</option>
+                            </select>
+                        </div>
+
+                        <div id="duration">
+                            <label for="duration">Duration</label>
+                            <input id="duration" type="number" name="duration" placeholder="Duration of contact" required>
+                        </div>
+
+                        <div id="campaign">
+                            <label for="campaign">Campaign</label>
+                            <input id="campaign" type="number" name="campaign" placeholder="Number of contacts" required>
+                        </div>
+                    </div>
+
+                    <div class="input-campaign">
+                        <div class="subtitle">
+                            <h2>Campaign Data</h2>
+                        </div>
+
+                        <div id="pdays">
+                            <label for="pdays">Pdays</label>
+                            <input id="pdays" type="number" name="pdays" placeholder="Last contact days" required>
+                        </div>
+
+                        <div id="previous">
+                            <label for="previous">Previous</label>
+                            <input id="previous" type="number" name="previous" placeholder="Contacts before this campaign" required>
+                        </div>
+
+                        <div id="poutcome">
+                            <label for="poutcome">Poutcome</label>
+                            <select id="poutcome" name="poutcome" placeholder="Past marketing result" required>
+                                <option value=""selected></option>  
+                                <option value="failure">Failure</option>
+                                <option value="other">Other</option>
+                                <option value="success">Success</option>
+                            </select>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="predict-button">
+                    <div id="predict-button">
+                        <button type="submit">Predict</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

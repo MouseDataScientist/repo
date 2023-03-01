@@ -5,4 +5,8 @@ telefonemas. Muitas vezes era necessário mais do que um contato com o mesmo cli
 Os dados foram adquiridos através do site UCI Machine Learning Repository, que contém coleções de bancos de dados usados pela comunidade de aprendizado de 
 máquina para a análise empírica de algoritmos de aprendizado de máquina.
 
-O resultado final gerou um modelo de previsão com 90% de acurácia.
+Tarefas realizadas no projeto:
+Análise, manipulação e tratamento dos dados no Python;
+Criação, análise e modificações do modelo preditivo;
+Criação de API em Flask para consumo do modelo preditivo;
+Criação de Front-end em HTML e CSS para interação com o usuário.
